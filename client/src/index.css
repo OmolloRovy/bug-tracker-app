@@ -1,0 +1,62 @@
+/* index.css - streamlined and clarified */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Noto Sans', sans-serif;
+  background: linear-gradient(#039651ff); /* Keep only one gradient */
+  color: white;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: none; /* Prevent conflicting backgrounds */
+}
+
+/* CSS Variables (Custom properties) */
+:root {
+  --font-family: 'Manrope', sans-serif;
+  --card-color: linear-gradient(89.97deg, #d5c1fb79 1.84%, #f1e3e3b6 102.67%);
+}
+
+.card {
+  background: var(--card-color);
+}
+
+.card-body {
+  background: linear-gradient( #054e2cff);
+  border-radius: 1px;
+}
+
+/* Button styling */
+button {
+  background: #ffd891;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: white;
+  font: normal bold 18px "Open Sans", sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  transition: all 1.3s;
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow:
+    0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
