@@ -18,7 +18,7 @@ This bug tracker is an easy-to-use web application useful in order to capture an
 
 ## Project Demo
 
-[Click to view live site]((https://bug-tracker-frontend-2yef.onrender.com))
+[Click to view live site](https://bug-tracker-frontend-2yef.onrender.com)
 
 
 ## Technologies
