@@ -3,9 +3,16 @@ export default {
     "^.+\\.js$": ["babel-jest", { presets: ["@babel/preset-env"] }]
   },
   testEnvironment: "node",
-  testMatch: ["**/__tests__/**/*.test.js", "**/?(*.)+(spec|test).js"],
+  setupFilesAfterEnv: ['<rootDir>/test/setup.js'],
+  testMatch: ["<rootDir>/test/**/*.test.js"],
   moduleFileExtensions: ["js", "json", "node"],
   collectCoverage: true,
+  collectCoverageFrom: [
+    'controllers/**/*.js',
+    'routes/**/*.js',
+    'middleware/**/*.js',
+    '!/node_modules/**'
+  ]
   coverageDirectory: "coverage",
   verbose: true,
 };
