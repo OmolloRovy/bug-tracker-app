@@ -8,7 +8,7 @@ import {
   selectAllBugs,
 } from "../../Controllers/Reducers/bugSlice";
 import Navigation from "../Components/Navagation/Navigation";
-import BugCard from "../Components/Bug Card/BugCard";
+import BugCard from "../Components/Bug Card/bugCard";
 
 export default function ViewBugs() {
   const dispatch = useDispatch();
