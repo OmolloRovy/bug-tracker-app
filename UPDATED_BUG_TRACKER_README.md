@@ -189,8 +189,3 @@ The project is deployed and in use by the creator. Public may use the repo as ne
 ## Inspiration
 
 Through building other projects, problems from user feedback were communicated by word of mouth and difficult to keep track of. This app solves that problem and was also intended to improve development skills.
-
-## Contact
-
-Created by [Jesse Hall](https://www.linkedin.com/in/jessehall/)  
-Feel free to contact me for any questions!
