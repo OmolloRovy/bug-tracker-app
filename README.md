@@ -15,21 +15,6 @@ In-house developement agency tool to keep track of website issues from client fe
 
 This bug tracker is an easy-to-use web application useful in order to capture and track public feedback concerning problems encountered on websites. It provides a way to manage bugs for any medium or small scale team managing multiple websites. This is a unique site that also integrates data charts to better visualize team and tech stack performances.
 
-<div align="center">Home Page and Dashboard: </div>
-<br/>
-<div align="center">
-<kbd>
-<img src="./capture.png">
-</kbd>
-</div>
-<br />
-<div align="center">Public Feedback Form: </div>
-<br/>
-<div align="center">
-<kbd>
-<img src="./capture2.png">
-</kbd>
-</div>
 
 ## Project Demo
 
