@@ -32,13 +32,10 @@ This bug tracker is an easy-to-use web application useful in order to capture an
 </kbd>
 </div>
 
-<!-- ## Project Demo
+## Project Demo
 
-[Click to view live site](https://62c1be1a7a230426936e3163--bug-tracker-mern-app.netlify.app/user/login)
+[Click to view live site]((https://bug-tracker-frontend-2yef.onrender.com))
 
-## Project Video 
-
-(https://youtu.be/3Wd7Y7kmVG0) -->
 
 ## Technologies
 
