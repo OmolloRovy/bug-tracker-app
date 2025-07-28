@@ -6,7 +6,6 @@ In-house developement agency tool to keep track of website issues from client fe
 
 - [General info](#general-info)
 - [Live Site](#project-demo)
-- [Project Video](#project-video)
 - [Technologies](#technologies)
 - [Features](#features)
 - [Inspiration](#inspiration)
