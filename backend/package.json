@@ -6,7 +6,11 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "test": "cross-env NODE_ENV=test jest",
+    "test:watch": "cross-env NODE_ENV=test jest --watch",
+"test:coverage": "cross-env NODE_ENV=test jest --coverage"
+    
   },
   "author": "Jesse Hall",
   "license": "ISC",
